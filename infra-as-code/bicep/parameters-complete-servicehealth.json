@@ -3,12 +3,12 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "parPolicyManagementGroupId": {
-            "value": "alz"
+            "value": "Production"
         },
         "parPolicyAssignmentParameters": {
             "value": {
                 "ALZMonitorResourceGroupName": {
-                    "value": "rg-alz-monitor"
+                    "value": "ClouX-COR-ARG-ALZ-Monitor"
                 },
                 "ALZMonitorResourceGroupTags": {
                     "value": {
@@ -16,14 +16,14 @@
                     }
                 },
                 "ALZMonitorResourceGroupLocation": {
-                    "value": "eastus"
+                    "value": "australiaeast"
                 }
             }
         },
         "parPolicyAssignmentParametersServiceHealth": {
             "value": {
                 "ALZMonitorActionGroupEmail": {
-                    "value": "action@mail.com"
+                    "value": "yyu018@hotmail.com"
                 },
                 "ResHlthUnhealthyAlertState": {
                     "value": "true"
